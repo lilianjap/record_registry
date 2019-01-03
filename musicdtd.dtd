@@ -1,0 +1,27 @@
+<!ENTITY Ouml "&#214;">
+<!ENTITY ouml "&#246;">
+<!ENTITY Ccedil "&#199;">
+<!ENTITY ccedil "&#231;">
+<!ENTITY Sh "&#350;">
+<!ENTITY sh "&#351;">
+<!ENTITY Uuml; "&#220;">
+<!ENTITY uuml; "&#252;">
+<!ENTITY amp; "&#38;">
+<!ENTITY apos "&#39;">
+<!ENTITY quot "&#34;">
+
+
+<!ELEMENT Registry (Artists, Albums)>
+<!ELEMENT Artists(artist+)>
+<!ATTLIST artist id ID #REQUIRED>
+<!ELEMENT artist(name)
+<!ELEMENT name (#PCDATA)>
+
+
+<!ELEMENT Albums(album+)>
+<ATTLIST album album_id ID #REQUIRED artist_id IDREF #REQUIRED>
+<!ELEMENT album (title, artist, release_date, added)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT added (#PCDATA)>

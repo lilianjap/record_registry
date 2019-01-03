@@ -1,0 +1,33 @@
+header{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 80px;
+  font-family: 'Optima';
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Optima';
+}
+#Add {
+  transform: translate(-50%, 0);
+  left: 50%;
+  right: auto;
+    margin-top: 60px;
+    font-family: 'Optima';
+    text-align: center;
+}
+
+#Update {
+  transform: translate(-50%, 0);
+  left: 50%;
+  right: auto;
+    font-family: 'Optima';
+    text-align: center;
+    margin-top: 60px;
+}
+
+#container {
+  font-family: 'Optima';
+}
