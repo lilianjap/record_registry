@@ -32,7 +32,7 @@
 	<body>
 <?php
 // Connect using host, username, password and databasename
-$link = mysqli_connect('localhost', 'root', 'drommar', 'Registry');
+$link = mysqli_connect('localhost', 'root', '', 'Registry');
 
 // Check connection
 if (mysqli_connect_errno()) {
